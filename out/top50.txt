@@ -1,0 +1,6 @@
+the	5
+and	2
+cat	2
+dog	2
+fog	1
+in	1
