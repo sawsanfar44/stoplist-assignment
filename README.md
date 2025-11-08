@@ -8,5 +8,19 @@ The goal is to identify and exclude these high-frequency words in future text an
 
 ---
 
-##  Project Structure
+## 📂 Project Structure
+```stoplist-assignment/
+├── data/wiki/ → קבצי הטקסט (w1.txt – w10.txt)
+├── src/ → קובץ הקוד הראשי
+│ └── build_stoplist.py
+├── out/ → תוצאות הריצה
+│ └── top50.txt
+└── README.md
+```
+---
 
+## ⚙️ How to Run
+Run the following command in your terminal:
+
+```bash
+python src/build_stoplist.py --input_dir data/wiki --k 50 --out out/top50.txt
